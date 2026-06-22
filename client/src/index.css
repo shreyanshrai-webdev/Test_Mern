@@ -1,0 +1,84 @@
+/* =========================================================================
+   CourseManagerApp — Design tokens
+   Concept: "Library Ledger" — a course catalog feels like an academic
+   record book: cards as index cards, a stamped accent, serif headings,
+   warm paper background instead of a generic SaaS-blue dashboard.
+   ========================================================================= */
+
+:root {
+  /* Color */
+  --paper: #F6F1E7;        /* warm paper background */
+  --ink: #2B2520;           /* near-black warm ink for text */
+  --ledger-green: #1F4D3A;  /* deep ledger green - primary accent */
+  --stamp-rust: #B5482B;    /* rust red - "stamp" accent for actions/delete */
+  --card: #FFFDF8;          /* index card white */
+  --line: #D8CDB8;          /* hairline rule color */
+  --muted: #7A6F5C;         /* muted caption text */
+  --gold: #C9A24B;          /* gold foil accent for level badges etc */
+
+  /* Type */
+  --font-display: "Source Serif 4", "Georgia", "Times New Roman", serif;
+  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "Courier New", monospace;
+
+  /* Layout */
+  --radius: 3px;
+  --shadow-card: 0 1px 2px rgba(43, 37, 32, 0.06), 0 4px 14px rgba(43, 37, 32, 0.07);
+  --max-width: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--paper);
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent 31px,
+      rgba(43, 37, 32, 0.035) 32px
+    );
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+/* Focus visibility for accessibility */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--ledger-green);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
