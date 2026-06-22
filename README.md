@@ -1,20 +1,17 @@
 ## Screenshots
 
 ### Add Course Form
+![Add Course Form](image/2026-06-22 (2).png)
 
-(image/2026-06-22 (2).png)
+### Home Page
+![Home Page](image/2026-06-22 (3).png)
 
-### Home page
+### Search Page
+![Search Page](image/2026-06-22 (4).png)
 
-(image/2026-06-22 (3).png)
+### Edit Page
+![Edit Page](image/2026-06-22 (5).png)
 
-### search page
-
-(image/2026-06-22 (3).png)
-
-### edit page
-
-(image/2026-06-22 (5).png)
 
 # CourseManagerApp
 
