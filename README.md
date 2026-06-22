@@ -1,3 +1,19 @@
+## Screenshots
+
+### Add Course Form
+![Add Course Form](image/2026-06-22 (2).png)
+
+### Home page 
+![home page] (image/2026-06-22 (3).png
+
+###
+![search bar](image/2026-06-22 (3).png)
+
+###
+![edit page] (image/2026-06-22 (2).png)
+
+
+
 # CourseManagerApp
 
 A full-stack Course Management application built with **React** (frontend) and **Express + MongoDB** (backend). Supports complete CRUD operations on courses, thumbnail image upload, and search/filter — matching the SDAC ReactJS test specification.
