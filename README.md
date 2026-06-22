@@ -53,15 +53,15 @@ CourseManagerApp/
 
 | Requirement                                                                  | Status |
 | ---------------------------------------------------------------------------- | ------ |
-| Display course list (thumbnail, name, instructor, category, duration, level) | ✅     |
-| Edit / Delete buttons per course                                             | ✅     |
-| Add Course form (all fields + file upload)                                   | ✅     |
-| New course + thumbnail appear immediately in the list                        | ✅     |
-| Edit Course — loads existing data into form                                  | ✅     |
-| Keep existing thumbnail OR upload a new one while editing                    | ✅     |
-| Save Changes updates the course                                              | ✅     |
-| Delete Course removes it from the list (and deletes the image file)          | ✅     |
-| **Bonus:** Search/filter by Course Name, Instructor, Category, Level         | ✅     |
+| Display course list (thumbnail, name, instructor, category, duration, level) |       |
+| Edit / Delete buttons per course                                             |       |
+| Add Course form (all fields + file upload)                                   |       |
+| New course + thumbnail appear immediately in the list                        |       |
+| Edit Course — loads existing data into form                                  |       |
+| Keep existing thumbnail OR upload a new one while editing                    |       |
+| Save Changes updates the course                                              |       |
+| Delete Course removes it from the list (and deletes the image file)          |       |
+| **Bonus:** Search/filter by Course Name, Instructor, Category, Level         |       |
 
 ---
 
@@ -99,8 +99,8 @@ npm start
 You should see:
 
 ```
-✅ MongoDB connected -> Database: Test, Collection: sub
-🚀 Server running on http://localhost:5000
+ MongoDB connected -> Database: Test, Collection: sub
+ Server running on http://localhost:5000
 ```
 
 ### 2. Frontend (React)
