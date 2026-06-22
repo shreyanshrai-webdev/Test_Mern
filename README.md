@@ -6,10 +6,10 @@
 ### Home page 
 ![home page] (image/2026-06-22 (3).png
 
-###
+### search page
 ![search bar](image/2026-06-22 (3).png)
 
-###
+### edit page 
 ![edit page] (image/2026-06-22 (2).png)
 
 
