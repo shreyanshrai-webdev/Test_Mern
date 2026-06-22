@@ -1,18 +1,20 @@
 ## Screenshots
 
 ### Add Course Form
+
 ![Add Course Form](image/2026-06-22 (2).png)
 
-### Home page 
-![home page] (image/2026-06-22 (3).png
+### Home page
+
+![home page] (image/2026-06-22 (3).png)
 
 ### search page
+
 ![search bar](image/2026-06-22 (3).png)
 
-### edit page 
-![edit page] (image/2026-06-22 (2).png)
+### edit page
 
-
+![edit page] (image/2026-06-22 (5).png)
 
 # CourseManagerApp
 
@@ -52,17 +54,17 @@ CourseManagerApp/
 
 ## Features Implemented
 
-| Requirement | Status |
-|---|---|
-| Display course list (thumbnail, name, instructor, category, duration, level) | ✅ |
-| Edit / Delete buttons per course | ✅ |
-| Add Course form (all fields + file upload) | ✅ |
-| New course + thumbnail appear immediately in the list | ✅ |
-| Edit Course — loads existing data into form | ✅ |
-| Keep existing thumbnail OR upload a new one while editing | ✅ |
-| Save Changes updates the course | ✅ |
-| Delete Course removes it from the list (and deletes the image file) | ✅ |
-| **Bonus:** Search/filter by Course Name, Instructor, Category, Level | ✅ |
+| Requirement                                                                  | Status |
+| ---------------------------------------------------------------------------- | ------ |
+| Display course list (thumbnail, name, instructor, category, duration, level) | ✅     |
+| Edit / Delete buttons per course                                             | ✅     |
+| Add Course form (all fields + file upload)                                   | ✅     |
+| New course + thumbnail appear immediately in the list                        | ✅     |
+| Edit Course — loads existing data into form                                  | ✅     |
+| Keep existing thumbnail OR upload a new one while editing                    | ✅     |
+| Save Changes updates the course                                              | ✅     |
+| Delete Course removes it from the list (and deletes the image file)          | ✅     |
+| **Bonus:** Search/filter by Course Name, Instructor, Category, Level         | ✅     |
 
 ---
 
@@ -120,13 +122,13 @@ This opens the app at **http://localhost:3000**. The React dev server proxies `/
 
 ## API Reference (for reference / testing with Postman)
 
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/api/courses` | List all courses. Supports `?search=term` |
-| GET | `/api/courses/:id` | Get a single course |
-| POST | `/api/courses` | Create a course (multipart/form-data, field `thumbnail` for the file) |
-| PUT | `/api/courses/:id` | Update a course (multipart/form-data). Send `existingThumbnail` to keep current image, or a new `thumbnail` file to replace it |
-| DELETE | `/api/courses/:id` | Delete a course |
+| Method | Endpoint           | Description                                                                                                                    |
+| ------ | ------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| GET    | `/api/courses`     | List all courses. Supports `?search=term`                                                                                      |
+| GET    | `/api/courses/:id` | Get a single course                                                                                                            |
+| POST   | `/api/courses`     | Create a course (multipart/form-data, field `thumbnail` for the file)                                                          |
+| PUT    | `/api/courses/:id` | Update a course (multipart/form-data). Send `existingThumbnail` to keep current image, or a new `thumbnail` file to replace it |
+| DELETE | `/api/courses/:id` | Delete a course                                                                                                                |
 
 Course fields: `courseName`, `instructor`, `category`, `duration`, `level` (`Beginner` / `Intermediate` / `Advanced`), `thumbnail`.
 
